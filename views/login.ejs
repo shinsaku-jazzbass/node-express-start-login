@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Index4</title>
+</head>
+
+<body>
+    <div class="container">
+            <h1 align="center">Vetss Messenger App</h1><br />
+                <form method="post" name="contact">
+                    <ul>
+                        <li><input type="text" name="username" value="" required /></li>
+                        <li><input type="password" name="password" required /></li>
+                        <li><input type="text" name="sysdate" id="date" value="2024-09-29"/></li>
+                        <li>
+                            <input type="hidden" name="csrf_token" value="c50123edf207a3ea966868190c412172818979ae3ef1eda6073813c2a0fabc19"> 
+                            <input type="submit" name="login" class="btn btn-info" value="Login" />
+                        </li>
+                    </ul>
+                </form>
+
+    </div>
+
+
+</body>
+
+</html>
+
+<script>
+	$(function(){
+		$('#date').datepicker({
+            dateFormat: 'yy-mm-dd',
+        });
+        
+	});
+</script>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-3 mb-3"><%= title %></h1>
+        
+
+        <div class="card">
+            <div class="row card-header">
+                <div class="col col-md-10">Sample AddForm</div>
+                <div class="col col-md-2">
+                        <a href="/alllist" class="btn btn-success btn-sm">戻る</a>
+                </div>
+            </div>
+            <div class="card-body">
+                <form method="POST" action="/adddata">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label>First Name</label>
+                                <input type="text" name="first_name" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label>Last Name</label>
+                                <input type="text" name="last_name" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label>Age</label>
+                                <input type="number" name="age" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label>Gender</label>
+                                <select name="gender" class="form-control">
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label>Password</label>
+                                <input type="text" name="password" id="password" class="form-control" placeholder="Passwordは復元不可" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            
+                        </div>
+            
+                    </div>
+                    <div class="mb-3">
+                        <input type="submit" name="submit_button" class="btn btn-primary" value="Add" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </div> 
+</body>
+</html>

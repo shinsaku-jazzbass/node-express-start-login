@@ -1,0 +1,365 @@
+/* ボディに関するCSS */
+body {
+	font-size: 10px;
+}
+/* ページ構造に関するCSS */
+#wrapper {
+	width:750px;
+}
+
+#header {
+	width: 750px;
+	padding: 15px 0px;
+
+	height: 180px;
+
+
+background : url(../templates/oyumino1.gif) no-repeat right center;
+}
+
+#content{	
+	clear: left;
+	width: 750px;
+	height: 1500px;
+	/*font-size: 12px;*/
+	padding: 0px 0px;
+	/*border: 1px solid #dddddd;*/
+	background-color: #FFF;
+	margin-top: 0px;
+}
+
+#navi {
+	font-size: 90%;
+	font-weight: 550px;
+	font-family: "ＭＳ　Ｐゴシック",Osaka,sans-serif;
+	line-height: 170%;
+	border: 1px solid #dddddd;
+	margin:0px 0px;
+	padding: 8px 5px;
+	list-style:none;
+	margin-left: 0px;
+	width: 750px;
+	background-color: #FFFFDD;	
+
+}
+
+#footer{
+	width: 750px;
+	clear:left;
+	height: 100px;
+	text-align: right;
+	margin-top: 15px;
+	border-top: solid 1px #000000;
+
+}
+
+/* ヘッダーに関するCSS */
+
+/* コンテンツに関するCSS */
+
+
+h2 {
+	font-size: 14px;
+	margin-top: 0px;
+}
+h1 {
+	font-size: 12px;
+	margin-top: 0px;
+}
+
+
+img {
+
+}
+
+h3 {
+	font-size: 18px;
+	margin-top: 0px;
+	margin-left: 5px;
+}
+
+#col2-1 {
+	font-size: 12px;
+	padding: 0px 2px;
+	margin-top: 0px
+	line-height: 120%;
+;}
+#col2-1 img {
+	float: left;
+	margin-right: 5px;
+}
+#col2-2 {
+	font-size: 12px;
+	margin-top: 0px;
+	*padding: 0px 2px;
+	line-height: 120%;
+	float: left;
+}
+
+#col2-2 img {
+	float: right;
+}
+
+#col2-3 {
+	font-size: 11px;
+	margin-top: 0px;
+	*padding: 0px 2px;
+	line-height: 120%;
+}
+
+#col2-3 img {
+	float: right;
+}
+
+#header img {
+	float:left;
+}
+
+#content h2 {
+	font-size:12px;
+	font-weight:normal;
+}
+
+/* ナビゲーションに関するCSS */
+#navi li {
+	float:left;
+	background-color: #DDDDDD;
+	margin-right: 5px;
+	margin-left: 0px;
+	border: 1px solid #FFFFFF;
+	text-align: center;
+	width: 110px;
+	height:22px;
+}
+
+#navi a{
+	color: #336666;
+	display:block;
+	width: 110px;
+	height:22px;
+	text-decoration:none;
+}
+
+#navi a:hover {
+	color: #FFF;
+	background-color: #6699cc;
+	text-decoration: none;
+}
+
+
+
+
+#col1 {
+	width: 168px;
+	height: 1500px;
+	font-size: 11px;
+	float: left;
+	line-height:14px;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-color: #FFFFFF;
+	border: 1px solid #dddddd;
+	margin-right: 0px;
+
+}
+
+#col1 h1 {
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+
+#col2 {
+	font-size: 12px;
+	width: 443px;
+	height: 500px;
+	float: left;
+	/*border: 1px solid #FFFFFF;*/
+	margin-right: 0px;
+}
+
+#col2 h1 {
+	font-size: 12px;
+	width: 100%;
+	height:24px;
+	padding: 2px 0px 2px 5px;
+	margin: 0px 0px 0px;
+	/*background-image : url(img/sttl_bar.gif);*/
+	background-repeat: repeat-x;
+}
+
+
+
+
+#col3 {
+	width: 130px;
+	height: 500px;
+	font-size:11px;
+	line-height:14px;
+	float: left;
+	border: 1px solid #FFFFFF;
+	margin-right: 0px;
+}
+
+#col3 h1 {
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+
+div#ukenaiyo ul  {   /* 候補表示欄 */
+  list-style-type  : none;
+  background-color : #fff;
+  border : 2px solid #ccc;
+  margin-left  : 0;    margin-top  : 0;
+  padding-left : 5px;  padding-top : 0;
+}
+div#ukenaiyo ul li.selected  {  /* 選択された候補 */
+  background-color : #ffc;
+  font-weight : bold;
+}
+
+div#ukedoctor ul  {   /* 候補表示欄 */
+  list-style-type  : none;
+  background-color : #fff;
+  border : 2px solid #ccc;
+  margin-left  : 0;    margin-top  : 0;
+  padding-left : 5px;  padding-top : 0;
+}
+div#ukedoctor ul li.selected  {  /* 選択された候補 */
+  background-color : #ffc;
+  font-weight : bold;
+}
+
+div#addr ul  {   /* 候補表示欄 */
+  list-style-type  : none;
+  background-color : #fff;
+  border : 2px solid #ccc;
+  margin-left  : 0;    margin-top  : 0;
+  padding-left : 5px;  padding-top : 0;
+}
+div#addr ul li.selected  {  /* 選択された候補 */
+  background-color : #ffc;
+  font-weight : bold;
+}
+
+div#addr2 ul  {   /* 候補表示欄 */
+  list-style-type  : none;
+  background-color : #fff;
+  border : 2px solid #ccc;
+  margin-left  : 0;    margin-top  : 0;
+  padding-left : 5px;  padding-top : 0;
+}
+div#addr2 ul li.selected  {  /* 選択された候補 */
+  background-color : #ffc;
+  font-weight : bold;
+}
+
+div#memo ul  {   /* 候補表示欄 */
+  list-style-type  : none;
+  background-color : #fff;
+  border : 2px solid #ccc;
+  margin-left  : 0;    margin-top  : 0;
+  padding-left : 5px;  padding-top : 0;
+}
+div#memo ul li.selected  {  /* 選択された候補 */
+  background-color : #ffc;
+  font-weight : bold;
+}
+
+div#douki ul  {   /* 候補表示欄 */
+  list-style-type  : none;
+  background-color : #fff;
+  border : 2px solid #ccc;
+  margin-left  : 0;    margin-top  : 0;
+  padding-left : 5px;  padding-top : 0;
+}
+div#douki ul li.selected  {  /* 選択された候補 */
+  background-color : #ffc;
+  font-weight : bold;
+}
+
+div#job ul  {   /* 候補表示欄 */
+  list-style-type  : none;
+  background-color : #fff;
+  border : 2px solid #ccc;
+  margin-left  : 0;    margin-top  : 0;
+  padding-left : 5px;  padding-top : 0;
+}
+div#job ul li.selected  {  /* 選択された候補 */
+  background-color : #ffc;
+  font-weight : bold;
+}
+
+/* リンクに関するCSS */
+
+/* a:link {text-decoration:none}
+
+a:visited {text-decoration:none}
+
+a:hover {text-decoration:none} */
+
+.Class12{
+  font-size : 12px;
+  font-family : "ＭＳ ゴシック";
+  text-decoration : none;
+}
+.Class11{
+  font-size : 11px;
+  font-weight : normal;
+}
+.Class14{
+  font-size : 14px;
+  font-weight : bold;
+}
+.Class13{
+  font-size : 13px;
+  font-weight : normal;
+  text-decoration : none;
+}
+.Class13b{
+  font-size : 13pt;
+  font-weight : bold;
+}
+.Class7{
+  font-size : 7px;
+  text-decoration : none;
+}
+.Class9{
+  font-size : 9px;
+}
+.Class15{
+  font-size : 15px;
+  font-weight : normal;
+  text-decoration : none;
+}
+.Class10{
+  font-size : 10px;
+  font-weight : normal;
+  text-decoration : none;
+}
+.Class18{
+  font-size : 18pt;
+  text-decoration : none;
+  
+}
+.Class32{
+  font-size : 32pt;
+  font-weight : bold;
+}
+.Class24{
+  font-size : 24pt;
+  font-weight : bold;
+}
+.Class32y{
+  font-size : 32pt;
+  background-color : #ffff00;
+}
+.Class18g{
+  font-size : 18pt;
+  font-weight : normal;
+  background-color : #a4fda4;
+  text-decoration : none;
+}
+.Class40{
+  font-size : 40pt;
+  font-weight : bold;
+}
